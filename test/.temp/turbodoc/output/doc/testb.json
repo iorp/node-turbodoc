@@ -1,0 +1,71 @@
+{
+  "myClass": {
+    "@": {
+      "name": "myClass",
+      "line": 3,
+      "level": 0,
+      "type": "class-definition",
+      "datatype": "class",
+      "definer": "class",
+      "start": 13,
+      "end": 114,
+      "static": false,
+      "extends": "WindowsMediaPlayer",
+      "parent": null,
+      "block": null,
+      "route": [
+        "testb",
+        "myClass"
+      ],
+      "sindex": 0,
+      "location": "\\testb.js",
+      "uri": "testb.html#myClass"
+    },
+    "myFunction": {
+      "@": {
+        "name": "myFunction",
+        "line": 5,
+        "level": 1,
+        "type": "function-definition",
+        "datatype": "function",
+        "definer": "function",
+        "params": [
+          "a",
+          "b",
+          "c"
+        ],
+        "start": 64,
+        "end": 104,
+        "static": false,
+        "async": false,
+        "parent": {
+          "name": "myClass",
+          "line": 3,
+          "level": 0,
+          "type": "class-definition",
+          "datatype": "class",
+          "definer": "class",
+          "start": 13,
+          "end": 114,
+          "static": false,
+          "extends": "WindowsMediaPlayer",
+          "parent": null,
+          "block": null,
+          "route": [
+            "myClass"
+          ],
+          "sindex": 0
+        },
+        "block": null,
+        "route": [
+          "testb",
+          "myClass",
+          "myFunction"
+        ],
+        "sindex": 0,
+        "location": "\\testb.js",
+        "uri": "testb.html#myFunction"
+      }
+    }
+  }
+}
